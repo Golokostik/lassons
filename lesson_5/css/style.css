@@ -1,0 +1,110 @@
+/* Скидання стилів */
+@import url("reset.css");
+@import url("fonts.css");
+
+
+/* ========================= ШРИФТИ =============================== */
+
+/*------------------- Підключення шрифтів ------------------------- */
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+@font-face {
+	font-family: "Slowly";
+	src:
+		url("../fonts/slowly-vmbvo.woff2") format("woff2"),
+		url("../fonts/slowly-vmbvo.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+body {
+	font-family: "Caveat", sans-serif;/* За замовченням "Times New Roman" */
+	font-size: 18px; /* За замовченням 16px */
+	color: #101b1a; /* За замовченням #000000 */
+}
+
+.major-title {
+	font-family: "Kablammo";
+	font-size: 50px;
+	color: #260b86; 
+	text-align: justify;
+	text-shadow:	 5px 5px 5px red,
+	 -2px -5px 6px rgb(76, 0, 255);
+}
+
+.zmist {
+	font-size: 30px;
+	text-align: center;
+}
+
+.title{
+	font-family: "Slowly";
+	font-size: 45px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.sub-title {
+	font-size: 30px;
+	color: #101b1a;
+	text-align: center;
+
+ }
+
+ .text{
+	text-indent: 20px;
+	text-align: justify;
+ }
+
+
+
+footer{
+	font-family:  "Inter",sans-serif;
+	font-size: 18px;
+
+}
+.home-work1{
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 30px;
+	color: #37393f;
+}
+
+.text-curs{
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 20px;
+	color: #6B77E5;
+}
+ .text-1{
+	text-align: justify;
+	color: #7D7D7D;
+	font-weight: 400;
+ }
+
+
+.home-work2 {
+	font-family: "Poppins", Times, serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #37393F;
+}
+
+.text-2{
+	text-align: justify;
+	font-family: "inter";
+	font-weight: 400;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+.list{
+	font-weight: 500;
+}
