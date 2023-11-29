@@ -1,0 +1,256 @@
+/*Скидання стилів*/
+@import url("reset.css");
+
+/*Шрифти верстки*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text:regular');
+
+/*Основні стилі*/
+body{
+	font-family: "inter", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #7D7D7D;
+	line-height: 146%;
+}
+
+/*Part of consalting*/
+.consalting {
+	padding-top: 150px;
+	max-width: 693px;
+	margin: 0 auto 40px auto;
+}
+
+.zustrich {
+	max-width: 100%;
+	margin-bottom: 35px;
+}
+
+.consalting .title {
+	color: #37393F;
+	font-size: 30px;
+	font-weight: 600;
+	font-family: "poppins";
+	line-height: 127%;
+	margin-bottom: 11px;
+}
+
+.consalting .text-1 {
+	margin-bottom: 42px;
+}
+
+.consalting .sub-title {
+	color: #6B77E5;
+	font-size: 20px;
+	font-family:  "poppins";
+	font-weight: 600;
+	margin-bottom: 12px;
+	line-height: 127%;
+}
+.consalting .text-2 {
+	margin-bottom: 36px;
+}
+
+.benefits .nout {
+	vertical-align: top;
+	width: 47.5%;
+	margin-right: 29px;
+}
+
+.benefits .our-benefits {
+	display: inline-block;
+	width: 47.5%;
+}
+
+.benefits .our-benefits .title {
+	color: #37393F;
+	font-size: 25px;
+	font-family: "poppins";
+	font-weight: 600;
+	line-height: 127%;
+	margin-bottom: 15px;
+}
+
+.benefits .our-benefits .subtitle {
+	color: #40DDB6;
+	font-size: 20px;
+	font-family: "poppins";
+	font-weight: 600;
+	line-height: 127%;
+	margin-bottom: 21px;
+}
+
+.benefits .our-benefits ul li {
+	padding-left: 28px;
+	margin-bottom: 30px;
+}
+
+/*part of jewellery*/
+
+.jewellery {
+	max-width: 1183px;
+	margin: 20px auto 40px auto;
+}
+
+.jewellery-text {
+	display: inline-block;
+	width: 47%;
+	margin-right: 38px;
+	padding-top: 21px;
+}
+.title-2 {
+	color: #D06B00;
+	font-size: 28px;
+	margin-bottom: 13px;
+}
+
+.sub-title-2 {
+	color: #0E333D;
+	font-size: 59px;
+	font-family: "DM+Serif+Text";
+	line-height: 146%;
+	margin-bottom: 25px;
+}
+
+.text-3 {
+	font-size: 20px;
+	line-height: 180%;
+}
+
+.jewellery .img img{
+	vertical-align: top;
+}
+
+.jewellery img+img {
+	margin-left: 22px;
+}
+
+
+
+
+
+
+/* ======================================================== */
+/* --------------- CSS-властивості блоків ----------------- */
+/* ======================================================== */
+
+.block {
+	background-color: #591db9;
+}
+.block-2 {
+	background-color: rgb(235, 34, 111);
+}
+.inline {
+	background-color: rgb(93, 224, 42);
+	
+}
+.inline-block {
+	background-color: #794f45;
+}
+.list {
+	background-color: chartreuse;
+}
+
+/* Відступи */
+/* Відступи неочікувано працюють для рядкових об'єктів */
+/* Відступи прийнято задавати для батьківського об'єкту */
+/* Відступи */
+/* Відступи неочікувано працюють для рядкових об'єктів */
+/* Відступи прийнято задавати для батьківського об'єкту */
+
+/*
+padding - Внутрішній відступ. 
+Відступи ВСЕРЕДЕНІ об'єкту. 
+Від кордонів об'єкту ДО ЙОГО КОНТЕНТУ
+НЕ успадковується
+
+Анатомія значення відступів:
+- Цифрове значення + одиниця виміру (10px, 50%... і т.д.)
+- Не може бути від'ємним
+- При вказанні значення у відсотках
+відсоток береться від ширини батьківського об'єкту,
+навіть для вертикальних відступів 
+
+padding: з_усіх_сторін;
+padding: зверху_знизу зправа_зліва;
+padding: зверху зправа_зліва знизу;
+padding: зверху зправа знизу зліва;
+(годинникова стрілка)
+
+padding-top: значення;
+padding-right: значення;
+padding-bottom: значення;
+padding-left: значення;
+
+*/
+
+/*.block{
+	padding: 1px;
+}
+
+.inline{
+	padding: ;
+	}
+.inline-block{
+	padding: 10px
+}
+
+
+.block p {
+	padding: 5px; 
+}
+*/
+/*
+margin - Зовнішній відступ.
+Відступи ЗОВНІ об'єкту до інших об'єктів. 
+НЕ успадковується
+
+Особливості:
+- Значення можуть бути від'ємними!
+- Спрацьовує ефект "схлопування" (накладання, колапс, згортання)
+
+margin: з_усіх_сторін;
+margin: зверху_знизу зправа_зліва;
+margin: зверху зправа_зліва знизу;
+margin: зверху зправа знизу зліва;
+
+margin-top: значення;
+margin-right: значення;
+margin-bottom: значення;
+margin-left: значення;
+*/
+.homework {
+	max-width: 900px;
+	margin: 50px auto 50px auto;
+}
+.block {
+	margin-bottom: -40px; 
+	padding: 20px;
+	width: 90%;
+}
+.block-2 {
+	padding: 40px 10px;
+	margin: 0 auto 30px;
+	width: 500px;
+}
+.inline {
+	padding: 0px;
+	margin: 110px;
+}
+.inline-block {
+	margin: 15px; 
+	width: 70%;
+}
+
+.block p{
+	margin: 45px;
+}
+
+.list {
+	width: 50%;
+	overflow: auto;
+	max-height: 100px;
+	margin: 50px;
+	}
