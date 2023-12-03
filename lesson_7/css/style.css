@@ -1,0 +1,322 @@
+/*Скидання стилів*/
+@import url("reset.css");
+
+/*	Шрифти*/
+
+@import url("fonts.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter&display=swap');
+
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("fonts.css");
+
+body {
+	padding: 50px 10px;
+}
+
+header {
+	margin: 0 auto 40px auto;
+	max-width: 900px;
+	font-family: "Caveat", sans-serif;
+	font-weight: 800;
+	font-size: 22px;
+}
+
+
+
+.experement .title1, .title2, .title3 {
+	font-family: "Kablammo", sans-serif;
+	margin-bottom: 20px;
+	padding: 30px;
+	text-align: center;
+	line-height: 140%;
+}
+.experement .title1{
+	font-size: 50px;
+	background-color: blue;
+	border: 10px solid greenyellow;
+	padding: 20px;
+	}
+
+.experement .title1 h1:hover{
+	border: 10px solid transparent;
+	}
+
+.experement .roket-1 {
+	max-width: 100%;
+	margin-bottom: 20px;
+	border-radius: 30px;
+	box-shadow: 10px 10px 5px 5px gray;
+	}
+.experement .title2 {
+	font-size:40px;
+	border-top: 10px solid #c59898;
+	border-right: 20px dashed red;
+	border-bottom: 30px solid blue;
+	border-left: 10px dashed green;
+	background-color: rgb(185, 185, 203);
+}
+
+.experement .title2 a {
+	color: beige;
+	border-bottom:  5px dotted;
+}
+
+.experement .title2 a:hover {
+	color: green;
+	border-bottom: 5px solid;
+}
+
+.experement .title3 {
+	font-size:30px;
+	background-color: rgb(185, 185, 203);
+	box-shadow: 10px 10px 5px 5px gray;
+	box-shadow: inset -10px -10px 20px 5px rgb(146, 55, 55);
+}
+
+.experement .roket-2 {
+	border-radius: 50%;
+	opacity: 0.5;
+}
+
+.experement .koment {
+	background-color: beige;
+	padding: 10px;
+	max-width: 800px;
+	outline: 10px solid yellowgreen;
+	margin: 0 auto 20px auto;
+}
+
+.experement p{
+	background-color: rgb(179, 236, 108);
+	margin-bottom: 15px;
+	font-weight: 300;
+	line-height: 120%;
+	border: 5px solid blueviolet;
+	}
+
+.hiden {
+visibility: hidden;
+}
+
+/*Home work*/
+/*Task - 1*/
+.task-1 {
+	max-width: 1238px;
+	padding: 40px 10px;
+	font-size: 18px;
+	line-height: 146%;
+	font-family: "inter", sans-serif;
+	color: #7D7D7D;
+	margin: 0 auto;
+	
+}
+
+.task-1 .head {
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.head-kvadrat {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	left: 47px;
+	top: 5px;
+	background: #40DDB6;
+}
+
+.head-text {
+	font-weight: 500;
+	color: #37393F;
+}
+
+.title-1{
+	font-size: 60px;
+	padding: 0;
+	text-align: center;
+	font-family: "poppins", sans-serif;
+	font-weight: 700;
+	line-height: 121%;
+	margin-bottom: 70px;
+	color: #37393F;
+}
+
+.title-2{
+	font-size: 40px;
+	padding: 0;
+	font-family: "poppins", sans-serif;
+	font-weight: 700;
+	line-height: 121%;
+	margin-bottom: 11px;
+	color: #37393F;
+}
+
+.title-3{
+	font-size: 40px;
+	padding: 0;
+	font-family: "poppins", sans-serif;
+	font-weight: 700;
+	line-height: 121%;
+	margin-bottom: 11px;
+	color: #37393F;
+}
+
+.title-3 a, .text-blue, .text-2 a{
+	font-weight: 400;
+	color: #40DDB6;
+}
+
+.block {
+	margin-bottom: 100px;
+}
+.text-1 {
+	margin-bottom: 32px;
+}
+
+.text-2, .text-blue {
+	margin-bottom: 24px;
+}
+
+/*Task - 2*/
+
+.task-2 {
+	max-width: 850px;
+	padding: 40px 10px;
+	font-size: 18px;
+	line-height: 146%;
+	font-family: "inter", sans-serif;
+	color: #7D7D7D;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+
+.task-2 h2 {
+	font-size: 40px;
+	padding: 0;
+	font-family: "poppins", sans-serif;
+	font-weight: 700;
+	line-height: 127%;
+	margin-bottom: 13px;
+	color: #37393F;
+}
+
+.text-task-2, .list-task-2 li {
+	margin-bottom: 35px;
+}
+
+.task-2 p {
+	margin-bottom: 20px;
+}
+
+.list-task-2, ul li {
+	list-style-type: circle;
+	list-style-position: inside;
+	padding-left: 16px;
+}
+
+.list-task-2, ol li {
+	list-style-type: decimal-leading-zero;
+	list-style-position: inside;
+	padding-left: 16px;
+}
+
+/*Task - 3*/
+.task-3 {
+	max-width: 1260px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: "causten", sans-serif;
+	padding: 40px 10px;
+	color: #807D7E;
+	line-height: 167%;
+}
+
+.task-3 .task-3-heder .mark {
+	height: 28px;
+	width: 6px;
+	background-color: #8A33FD;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.task-3 .task-3-heder h1 {
+	font-size: 28px;
+	font-weight: 700;
+	display: inline-block;
+	line-height: 1.67;
+	margin-bottom: 30px;
+}
+.task-3 .text {
+	padding-left: 11px;
+}
+
+.task-3 .text p {
+	margin-bottom: 20px;
+	line-height: 33.5px;
+}
+.task-3 .text span{
+	font-weight: 700;
+
+}
+.cloting {
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+
+
+/*Task - 4*/
+
+.task-4 {
+	max-width: 1123px;
+	font-weight: 700;
+	font-family: "cormorant infant", sans-serif;
+	margin: 0 auto;
+	color: #606060;
+	padding: 40px 10px;
+	font-size: 0;
+	}
+
+.task-4 .block-1 {
+	display: inline-block;
+	width: 501px;
+	padding-top: 70px;
+	margin-right: 75px;
+}
+
+.what-we-do {
+	color: #D58417;
+	font-size: 20px;
+}
+.task-4 .block-1 h1 {
+	font-size: 64px;
+}
+
+.task-4 .block-1 .text-1 {
+	line-height: 140%;
+	width: 489px;
+	font-size: 20px;
+}
+
+.woman-1 {
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.woman-2{
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
